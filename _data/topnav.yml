@@ -1,0 +1,106 @@
+topnav:
+  - title: Chapter
+    items:
+      - title: 1. Introduction
+        group: Chapter. 1
+        url: /docs/chapter01/0
+      - title: 2. Discrete-Time Signals and Systems
+        group: Chapter. 2
+        url: /docs/chapter02/0
+      - title: 3. The z-Transform and Its Application to the Analysis of LTI Systems
+        group: Chapter. 3
+        url: /docs/chapter03/0
+      - title: 4. Frequency Analysis of Signals
+        group: Chapter. 4
+        url: /docs/chapter04/0
+      - title: 5. Frequency-Domain Analysis of LTI Systems
+        group: Chapter. 5
+        url: /docs/chapter05/0
+      - title: 6. Sampling and Reconstruction of Signals
+        group: Chapter. 6
+        url: /docs/chapter06/0
+      - title: 7. The Discrete Fourier Transform, Its Properties and Applications
+        group: Chapter. 7
+        url: /docs/chapter07/0
+      - title: 8. Efficient Computation of the DFT, Fast Fourier Transform Algorithms
+        group: Chapter. 8
+        url: /docs/chapter08/0
+      - title: 9. Implementation of Discrete-Time-Systems
+        group: Chapter. 9
+        url: /docs/chapter09/0
+      - title: 10. Design of Digital Filters
+        group: Chapter. 10
+        url: /docs/chapter10/0
+      - title: 11. Multirate Digital Signal Processing
+        group: Chapter. 11
+        url: /docs/chapter11/0
+      - title: 12. Linear Prediction and Optimum Linear Filters
+        group: Chapter. 12
+        url: /docs/chapter12/0
+      - title: 13. Adaptive Filters
+        group: Chapter. 13
+        url: /docs/chapter13/0
+
+  - title: 1
+    group: "Chapter. 1"
+    url: /docs/chapter01/0
+
+  - title: 2
+    group: "Chapter. 2"
+    url: /docs/chapter02/0
+    disable: true
+
+  - title: 3
+    group: "Chapter. 3"
+    url: /docs/chapter03/0
+    disable: true
+
+  - title: 4
+    group: "Chapter. 4"
+    url: /docs/chapter04/0
+    disable: true
+
+  - title: 5
+    group: "Chapter. 5"
+    url: /docs/chapter05/0
+    disable: true
+
+  - title: 6
+    group: "Chapter. 6"
+    url: /docs/chapter06/0
+    disable: true
+
+  - title: 7
+    group: "Chapter. 7"
+    url: /docs/chapter07/0
+    disable: true
+
+  - title: 8
+    group: "Chapter. 8"
+    url: /docs/chapter08/0
+    disable: true
+
+  - title: 9
+    group: "Chapter. 9"
+    url: /docs/chapter09/0
+    disable: true
+
+  - title: 10
+    group: "Chapter. 10"
+    url: /docs/chapter10/0
+    disable: true
+
+  - title: 11
+    group: "Chapter. 11"
+    url: /docs/chapter11/0
+    disable: true
+
+  - title: 12
+    group: "Chapter. 12"
+    url: /docs/chapter12/0
+    disable: true
+
+  - title: 13
+    group: "Chapter. 13"
+    url: /docs/chapter13/0
+    disable: true

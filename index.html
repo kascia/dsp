@@ -1,0 +1,91 @@
+---
+layout: default
+---
+<div class="row">
+  <div class="col-sm-12 col-md-6">
+    <div class="well-sm">
+      <h3>Introduction</h3>
+      <p>이 페이지는 디지털 신호처리를 다룬 원서(Digital SIgnal Processing, John G.Proakis, Dimitris G. Manolakis)를 정리한 문서입니다. </p>
+      <!--
+      <p>
+	      <a href="http://research.microsoft.com/en-us/um/people/cmbishop/#prml-book" target="_blank">
+	        <button type="button" class="btn btn-success">교재 정보</button>
+	      </a>
+      -->
+      </p>
+    </div>
+
+    <div class="well-sm">
+      <h3>New Posts</h3>
+      <ul class="post-list">
+	      {% for post in site.posts limit:3 %}
+	      <li>
+	        <h4>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	        </h4>
+	        <p><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span></p>
+	        {{ post.excerpt }}
+          <hr/>
+	      </li>
+	      {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-sm-12 col-md-6">
+    <div class="well-sm">
+      <h3>Chapter 1. 소개 (Introduction)</h3>
+      <ul>
+        <li><a href="{{ site.baseurl }}/docs/chapter01/0">0. 프롤로그 (Prolog)</a></li>
+
+      </ul>
+    </div>
+    <div class="well-sm">
+      <h3>Chapter 2. 이산-시간 신호 및 시스템 (Discrete-Time Signals and Systems)</h3>
+    </div>
+    <div class="well-sm">
+      <h3>Chapter 3. LTI 시스템 분석을 위한 z-트랜스폼과 응용 (The z-Transform and Its Application to the Analysis of LTI Systems)</h3>
+    </div>
+
+    <div class="well-sm">
+      <h3>Chapter 4. 신호의 주파수 분석 (Frequency Analysis of Signals)</h3>
+    </div>
+
+    <div class="well-sm">
+      <h3>Chapter 5. LTI 시스템의 주파수-영역 분석 (Frequency-Domain Analysis of LTI Systems)</h3>
+    </div>
+
+    <div class="well-sm">
+      <h3>Chapter 6. 신호의 샘플링과 복원 (Sampling and Reconstruction of Signals)</h3>
+    </div>
+
+    <div class="well-sm">
+      <h3>Chapter 7. 이산 푸리에 변환의 속성과 응용 (The Discrete Fourier Transform, Its Properties and Applications)</h3>
+    </div>
+
+    <div class="well-sm">
+      <h3>Chapter 8. 효율적인  (Efficient Computation of the DFT, Fast Fourier Transform Algorithms)</h3>
+    </div>
+
+    <div class="well-sm">
+      <h3>Chapter 9. 이산 시간 시스템의 구현 (Implementation of Discrete-Time-Systems)</h3>
+    </div>
+
+    <div class="well-sm">
+      <h3>Chapter 10. 디지털 필터 디자인 (Design of Digital Filters)</h3>
+    </div>
+
+    <div class="well-sm">
+      <h3>Chapter 11. 다중율 디지털 신호 처리 (Multirate Digital Signal Processing)</h3>
+    </div>
+
+    <div class="well-sm">
+      <h3>Chapter 12. 선형 예측과 최적 선형 필터 (Linear Prediction and Optimum Linear Filters)</h3>
+    </div>
+
+    <div class="well-sm">
+      <h3>Chapter 13. 적응 필터 (Adaptive Filters)</h3>
+    </div>
+
+  </div>
+</div>
